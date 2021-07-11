@@ -1,0 +1,25 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "a basic chat application.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "dont know yet",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Socket chat application"
+  },
+  "keywords": [
+    "Socket",
+    "chat"
+  ],
+  "author": "Shivam Singh",
+  "license": "ISC"
+}
