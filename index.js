@@ -5,8 +5,8 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
 const path = require('path');
-var port_number = server.listen(process.env.PORT || 3000);
-app.listen(port_number);
+//var port_number = server.listen(process.env.PORT || 3000);
+//app.listen(port_number);
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
