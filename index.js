@@ -15,12 +15,12 @@ io.on('connection', (socket) => {
   console.log('a user connected');
 });
 
-server.listen(process.env.PORT || 5000){
-  console.log('listening to the port')
-};
-// listen(3000, () => {
-//   console.log('listening on *:3000');
-// });
+// server.listen(process.env.PORT || 5000){
+//   console.log('listening to the port')
+// };
+listen(process.env.PORT || 5000, () => {
+  console.log('listening on Desired port');
+});
 io.on('connection', (socket) => {
   socket.on('chat message', (msg) => {
     console.log('message: ' + msg);
